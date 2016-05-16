@@ -1,0 +1,83 @@
+
+Elev6@KSD-6 MINGW64 ~/projects
+$ ls
+160418/      160420CSS/   160422Genomskildig/  160426/    testar/
+160419html/  160421Lida/  160425/              Bootsrap/
+
+Elev6@KSD-6 MINGW64 ~/projects
+$ cd testar/
+
+Elev6@KSD-6 MINGW64 ~/projects/testar (master)
+$ ls
+README.md
+
+Elev6@KSD-6 MINGW64 ~/projects/testar (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+
+Elev6@KSD-6 MINGW64 ~/projects/testar (master)
+$ ls
+README.md  testar.txt
+
+Elev6@KSD-6 MINGW64 ~/projects/testar (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        testar.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Elev6@KSD-6 MINGW64 ~/projects/testar (master)
+$ git add .
+
+Elev6@KSD-6 MINGW64 ~/projects/testar (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   testar.txt
+
+
+Elev6@KSD-6 MINGW64 ~/projects/testar (master)
+$ git commit -m "tar bild på filen testar.txt"
+[master 6029a03] tar bild på filen testar.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 testar.txt
+
+Warning: Your console font probably doesn't support Unicode. If you experience s
+trange characters in the output, consider switching to a TrueType font such as C
+onsolas!
+
+Elev6@KSD-6 MINGW64 ~/projects/testar (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+Elev6@KSD-6 MINGW64 ~/projects/testar (master)
+$ git pull origin master
+From https://github.com/linnwir/testar
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+
+Elev6@KSD-6 MINGW64 ~/projects/testar (master)
+$ git push origin master
+Username for 'https://github.com': linnwir
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 287 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/linnwir/testar.git
+   2e90354..6029a03  master -> master
+
+Elev6@KSD-6 MINGW64 ~/projects/testar (master)
+$

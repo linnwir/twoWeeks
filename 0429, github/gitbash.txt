@@ -1,0 +1,66 @@
+
+Elev6@KSD-6 MINGW64 ~/projects
+$ ls
+CSS/  html/  testaLite/
+
+Elev6@KSD-6 MINGW64 ~/projects
+$ cd css
+
+Elev6@KSD-6 MINGW64 ~/projects/css (master)
+$ ls
+css_formatera_sida.html  Format.css  index.html  README.md  test.txt
+
+Elev6@KSD-6 MINGW64 ~/projects/css (master)
+$ git add .
+
+Elev6@KSD-6 MINGW64 ~/projects/css (master)
+$ ls
+css_formatera_sida.html  Format.css  index.html  README.md  test.txt
+
+Elev6@KSD-6 MINGW64 ~/projects/css (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Format.css
+        new file:   css_formatera_sida.html
+        new file:   index.html
+        new file:   test.txt
+
+
+Elev6@KSD-6 MINGW64 ~/projects/css (master)
+$ git commit -m "css-fil"
+[master c240a1c] css-fil
+ 4 files changed, 143 insertions(+)
+ create mode 100644 Format.css
+ create mode 100644 css_formatera_sida.html
+ create mode 100644 index.html
+ create mode 100644 test.txt
+
+Elev6@KSD-6 MINGW64 ~/projects/css (master)
+$ git pull origin master
+From https://github.com/linnwir/CSS
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+
+Elev6@KSD-6 MINGW64 ~/projects/css (master)
+$
+
+Elev6@KSD-6 MINGW64 ~/projects/css (master)
+$ git push origin master
+Username for 'https://github.com': linnwir
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.27 KiB | 0 bytes/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/linnwir/CSS.git
+   e9603c5..c240a1c  master -> master
+
+Elev6@KSD-6 MINGW64 ~/projects/css (master)
+$
+
+Elev6@KSD-6 MINGW64 ~/projects/css (master)
+$
